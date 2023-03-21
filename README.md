@@ -22,3 +22,14 @@
 4. Rode o sistema
 5. Digite o nome do ativo e clique no botão de "Consultar"
 6. Será trago o histórico dia a dia e também um gráfico mostrando a evolução do ativo no prazo de 1 mês
+
+Links para download:
+
+Visual Studio:
+https://visualstudio.microsoft.com/pt-br/downloads/
+
+.Net 7.0:
+https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
+Sql Server:
+https://aka.ms/ssmsfullsetup
