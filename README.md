@@ -8,6 +8,7 @@
 5. Foi implementado o TDD simples para alguns testes em questões de consulta e campo null ou empty
 6. Todo o sistema esta em .NET 7.0
 7. Sistema foi criado com modelo de injeção de dependencia(Respeitando as camadas de interface e camadas de execução)
+8. Foi implementado o sistema de camadas: uma para acesso a dados, uma camada para rodagem da aplicação e outra para camada de testes XUnit
 
 ## Front-end
 1. Foi utilizado javascript, jquery, html, bootstrap, ajax e CanvasJS para criação dos gráficos
