@@ -1,7 +1,7 @@
 # Variação do Ativo
 
 ## Backend
-1. Foi utilizado a api https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA para consultas do ativo
+1. Foi utilizado a api https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA para consultas dos ativos
 2. Esta sendo armazenado ao banco, após realizar a consulta dos dados do ativo.
 3. Todo o backend foi preparado utilizando metodologias de clean code e entityFramework
 4. Banco de dados utilizado foi o SQL Server
