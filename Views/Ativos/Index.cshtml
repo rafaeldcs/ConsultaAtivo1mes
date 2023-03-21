@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Ativos";
+}
+
+<h2>Ativos</h2>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <title>Automatização EDI</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card border-0 shadow rounded-3 my-5">
+                    <div class="card-body p-4 p-sm-5">
+                        <button onclick="ConsultaAtivoPetra();">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="~/Scripts/Ativos/Ativos.js"></script>
+<script>
+    var urlConsultarAtivoPetra = '@Url.Content("~/Ativos/BuscarAtivoPetra")';
+</script>
